@@ -1,0 +1,41 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.jumbotron {
+	p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+    float: left;
+    width: 71%;
+    margin-left: 25px;
+    margin: 13px 0 0 30px;
+    display: block;
+}
+	img {float:left;}
+}
+
+
+@media screen and (max-width: 768px) {
+.container {text-align:center;}
+  .jumbotron {
+  	text-align:center;
+  	img {float:none; margin:25px auto;}
+	p {
+	 width:100%;
+	 margin:0;
+	}
+}
+}
+
+
+
+
+
+
+
+
+
+
